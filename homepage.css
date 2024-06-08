@@ -1,0 +1,35 @@
+.table-sortable th,
+.table-sortable td {
+    padding: 10px 10px;
+}
+
+.table-sortable th {
+    font-size: 1.2em;
+}
+
+.table-sortable td {
+    font-size: 1.2em;
+}
+
+.stat th,
+.stat td {
+    padding: 10px 10px;
+}
+
+.stat {
+    font-size: 1.2em;
+    margin: 50x;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;  
+    justify-items: center;
+    max-width: 1475px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 70px;
+}
